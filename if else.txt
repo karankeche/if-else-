@@ -1,0 +1,15 @@
+Program 1: Write a Program to Find a Maximum between two numbers
+Input: 1 2
+Output: 2 is Max number between 1 & 2
+program =
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Compare and find the maximum
+if num1 > num2:
+    max_num = num1
+else:
+    max_num = num2
+
+# Output
+print(f"{max_num} is the maximum number between {num1} and {num2}")
